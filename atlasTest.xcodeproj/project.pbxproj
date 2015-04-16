@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C82928BA1ADFD38300BF6ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82928B91ADFD38300BF6ACE /* AppDelegate.swift */; };
+		C82928BC1ADFD38300BF6ACE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C82928BB1ADFD38300BF6ACE /* GameScene.sks */; };
+		C82928BE1ADFD38300BF6ACE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82928BD1ADFD38300BF6ACE /* GameScene.swift */; };
+		C82928C01ADFD38300BF6ACE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82928BF1ADFD38300BF6ACE /* GameViewController.swift */; };
+		C82928C31ADFD38300BF6ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82928C11ADFD38300BF6ACE /* Main.storyboard */; };
+		C82928C51ADFD38300BF6ACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82928C41ADFD38300BF6ACE /* Images.xcassets */; };
+		C82928C81ADFD38300BF6ACE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C82928C61ADFD38300BF6ACE /* LaunchScreen.xib */; };
+		C82928D41ADFD38300BF6ACE /* atlasTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82928D31ADFD38300BF6ACE /* atlasTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C82928CE1ADFD38300BF6ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82928AC1ADFD38300BF6ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82928B31ADFD38300BF6ACE;
+			remoteInfo = atlasTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C82928B41ADFD38300BF6ACE /* atlasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atlasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82928B81ADFD38300BF6ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82928B91ADFD38300BF6ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C82928BB1ADFD38300BF6ACE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C82928BD1ADFD38300BF6ACE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C82928BF1ADFD38300BF6ACE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C82928C21ADFD38300BF6ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82928C41ADFD38300BF6ACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C82928C71ADFD38300BF6ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C82928CD1ADFD38300BF6ACE /* atlasTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlasTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82928D21ADFD38300BF6ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82928D31ADFD38300BF6ACE /* atlasTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atlasTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82928B11ADFD38300BF6ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82928CA1ADFD38300BF6ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82928AB1ADFD38300BF6ACE = {
+			isa = PBXGroup;
+			children = (
+				C82928B61ADFD38300BF6ACE /* atlasTest */,
+				C82928D01ADFD38300BF6ACE /* atlasTestTests */,
+				C82928B51ADFD38300BF6ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C82928B51ADFD38300BF6ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82928B41ADFD38300BF6ACE /* atlasTest.app */,
+				C82928CD1ADFD38300BF6ACE /* atlasTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82928B61ADFD38300BF6ACE /* atlasTest */ = {
+			isa = PBXGroup;
+			children = (
+				C82928B91ADFD38300BF6ACE /* AppDelegate.swift */,
+				C82928BB1ADFD38300BF6ACE /* GameScene.sks */,
+				C82928BD1ADFD38300BF6ACE /* GameScene.swift */,
+				C82928BF1ADFD38300BF6ACE /* GameViewController.swift */,
+				C82928C11ADFD38300BF6ACE /* Main.storyboard */,
+				C82928C41ADFD38300BF6ACE /* Images.xcassets */,
+				C82928C61ADFD38300BF6ACE /* LaunchScreen.xib */,
+				C82928B71ADFD38300BF6ACE /* Supporting Files */,
+			);
+			path = atlasTest;
+			sourceTree = "<group>";
+		};
+		C82928B71ADFD38300BF6ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82928B81ADFD38300BF6ACE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C82928D01ADFD38300BF6ACE /* atlasTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C82928D31ADFD38300BF6ACE /* atlasTestTests.swift */,
+				C82928D11ADFD38300BF6ACE /* Supporting Files */,
+			);
+			path = atlasTestTests;
+			sourceTree = "<group>";
+		};
+		C82928D11ADFD38300BF6ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82928D21ADFD38300BF6ACE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82928B31ADFD38300BF6ACE /* atlasTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82928D71ADFD38300BF6ACE /* Build configuration list for PBXNativeTarget "atlasTest" */;
+			buildPhases = (
+				C82928B01ADFD38300BF6ACE /* Sources */,
+				C82928B11ADFD38300BF6ACE /* Frameworks */,
+				C82928B21ADFD38300BF6ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atlasTest;
+			productName = atlasTest;
+			productReference = C82928B41ADFD38300BF6ACE /* atlasTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C82928CC1ADFD38300BF6ACE /* atlasTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82928DA1ADFD38300BF6ACE /* Build configuration list for PBXNativeTarget "atlasTestTests" */;
+			buildPhases = (
+				C82928C91ADFD38300BF6ACE /* Sources */,
+				C82928CA1ADFD38300BF6ACE /* Frameworks */,
+				C82928CB1ADFD38300BF6ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82928CF1ADFD38300BF6ACE /* PBXTargetDependency */,
+			);
+			name = atlasTestTests;
+			productName = atlasTestTests;
+			productReference = C82928CD1ADFD38300BF6ACE /* atlasTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82928AC1ADFD38300BF6ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ADgroup7;
+				TargetAttributes = {
+					C82928B31ADFD38300BF6ACE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C82928CC1ADFD38300BF6ACE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C82928B31ADFD38300BF6ACE;
+					};
+				};
+			};
+			buildConfigurationList = C82928AF1ADFD38300BF6ACE /* Build configuration list for PBXProject "atlasTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C82928AB1ADFD38300BF6ACE;
+			productRefGroup = C82928B51ADFD38300BF6ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82928B31ADFD38300BF6ACE /* atlasTest */,
+				C82928CC1ADFD38300BF6ACE /* atlasTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82928B21ADFD38300BF6ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82928C81ADFD38300BF6ACE /* LaunchScreen.xib in Resources */,
+				C82928C51ADFD38300BF6ACE /* Images.xcassets in Resources */,
+				C82928BC1ADFD38300BF6ACE /* GameScene.sks in Resources */,
+				C82928C31ADFD38300BF6ACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82928CB1ADFD38300BF6ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82928B01ADFD38300BF6ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82928BE1ADFD38300BF6ACE /* GameScene.swift in Sources */,
+				C82928C01ADFD38300BF6ACE /* GameViewController.swift in Sources */,
+				C82928BA1ADFD38300BF6ACE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82928C91ADFD38300BF6ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82928D41ADFD38300BF6ACE /* atlasTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C82928CF1ADFD38300BF6ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82928B31ADFD38300BF6ACE /* atlasTest */;
+			targetProxy = C82928CE1ADFD38300BF6ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C82928C11ADFD38300BF6ACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82928C21ADFD38300BF6ACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82928C61ADFD38300BF6ACE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82928C71ADFD38300BF6ACE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82928D51ADFD38300BF6ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C82928D61ADFD38300BF6ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82928D81ADFD38300BF6ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = atlasTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C82928D91ADFD38300BF6ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = atlasTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C82928DB1ADFD38300BF6ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = atlasTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlasTest.app/atlasTest";
+			};
+			name = Debug;
+		};
+		C82928DC1ADFD38300BF6ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = atlasTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlasTest.app/atlasTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82928AF1ADFD38300BF6ACE /* Build configuration list for PBXProject "atlasTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82928D51ADFD38300BF6ACE /* Debug */,
+				C82928D61ADFD38300BF6ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82928D71ADFD38300BF6ACE /* Build configuration list for PBXNativeTarget "atlasTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82928D81ADFD38300BF6ACE /* Debug */,
+				C82928D91ADFD38300BF6ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C82928DA1ADFD38300BF6ACE /* Build configuration list for PBXNativeTarget "atlasTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82928DB1ADFD38300BF6ACE /* Debug */,
+				C82928DC1ADFD38300BF6ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C82928AC1ADFD38300BF6ACE /* Project object */;
+}
